@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
  */
 public class AObserver {
 
-    Logger logger = LoggerFactory.getLogger(getClass());
+    private Logger logger = LoggerFactory.getLogger(getClass());
 
     @Subscribe
     public void handleMessage(String msg){
