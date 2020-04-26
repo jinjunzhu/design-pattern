@@ -8,7 +8,7 @@ import org.springframework.test.context.junit4.AbstractTransactionalJUnit4Spring
 
 /**
  * @author jinjunzhu
- * @date 2020/1/10
+ *  2020/1/10
  */
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT,classes = Application.class)
 public class AbstractSpringbootTest extends AbstractTransactionalJUnit4SpringContextTests {
